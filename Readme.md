@@ -5,7 +5,7 @@ Building production-grade LLM systems, backend services, and interactive data to
 
 ---
 
-## 🚀 About Me ( FOR READY NOT YET )
+## 🚀 About Me  [✅ Not ready yet ]
 - AI Engineer intern at * (actively contributing to production systems)  
 - Building end-to-end **AI-powered analytics platforms** (FastAPI + LangChain + React)  
 - Strong background in **data science**, now focused on **backend & LLM engineering**  
