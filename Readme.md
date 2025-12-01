@@ -3,36 +3,3 @@
 Building production-grade LLM systems, backend services, and interactive data tools.
 </p>
 
----
-
-## 🚀 About Me  [✅ Not ready yet ]
-- AI Engineer intern at * (actively contributing to production systems)  
-- Building end-to-end **AI-powered analytics platforms** (FastAPI + LangChain + React)  
-- Strong background in **data science**, now focused on **backend & LLM engineering**  
-- Passionate about scalable architectures, SQL reasoning, and intelligent automation  
-
----
-
-## 🛠️ Tech Stack
-
-
----
-
-## 🌐 Featured Project — 
-
-
-
-
-
-**Key Features**
-
-
-
-
----
-
-## 📬 Contact
-- **LinkedIn:** your-link  
-- **YouTube:** FedAI  
-- **Mail:** your@address.com  
-
