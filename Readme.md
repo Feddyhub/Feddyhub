@@ -1,136 +1,48 @@
-<h1 align="center">🚀 Feddy (Murat Ferhat Derya)</h1>
+<h1 align="center">🚀 Feddyhub (Murat Ferhat Derya)</h1>
 <p align="center">
   <strong>AI Engineer • Full-Stack Systems Builder • LLM Architect</strong><br>
   Designing scalable AI-powered products, data systems, and production-grade backends.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Feddyhub">
-    <img src="https://img.shields.io/github/followers/Feddyhub?label=Follow&style=social" />
-  </a>
-  <a href="https://www.linkedin.com/in/muratferhatderya/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" />
-  </a>
+  <a href="https://github.com/Feddyhub"><img src="https://img.shields.io/github/followers/Feddyhub?label=Follow&style=social" /></a>
+  <a href="https://www.linkedin.com/in/muratferhatderya/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" /></a>
 </p>
 
 ---
 
-## 🧠 About Me
-
-I’m an AI Engineer focused on **building real-world AI systems**, not just models.
-
-* 🧩 Designing **LLM-powered products** (RAG, agents, tool-calling systems)
-* ⚙️ Building **scalable backend architectures** (NestJS, FastAPI, Postgres)
-* 📊 Turning raw data into **decision-making systems**
-* 🚀 Shipping features that actually run in production
-
-Currently working at **Dativa AI**, contributing to **end-to-end AI product development** — from model integration to frontend delivery.
+### 🧠 Profile & Engineering Philosophy
+| **About Me** | **The Mindset** |
+| :--- | :--- |
+| AI Engineer at **Dativa AI**, focusing on real-world systems, not just models. Specialized in LLM products (RAG, Agents), scalable backends (NestJS, FastAPI), and turning raw data into production-grade decision systems. | ✅ **Production > Demos**<br>✅ **Scalability > Hype**<br>✅ **Clean Architecture > Quick Hacks**<br>✅ **Data-Driven > Assumptions** |
 
 ---
 
-## 🔥 What I Actually Build
-
-Not just CRUD apps — I build **systems**:
-
-* 🧠 **AI Agents & Workflows**
-
-  * Multi-step reasoning pipelines
-  * Tool-calling & function orchestration
-  * MCP-based integrations
-
-* 📚 **RAG Systems**
-
-  * Hybrid retrieval (vector + keyword)
-  * Reranking pipelines
-  * Context optimization & caching
-
-* 📈 **Analytics Platforms**
-
-  * Real-time dashboards
-  * Business intelligence systems
-  * Data → insight pipelines
-
-* ⚡ **Backend Systems**
-
-  * High-performance APIs (NestJS + Fastify)
-  * Multi-tenant architectures
-  * Data-heavy services with Kysely/Postgres
+### 🛠 Technical Ecosystem
+| 🚀 **What I Build** | 💻 **Tech Stack** | 🤖 **AI & LLM** |
+| :--- | :--- | :--- |
+| • **AI Agents:** Multi-step reasoning & MCP | • **Languages:** TS, Python, SQL | • OpenAI & Claude API |
+| • **RAG:** Hybrid retrieval & Reranking | • **Backend:** NestJS, FastAPI, Node | • Prompt Eng. & Eval |
+| • **Analytics:** BI & Insight pipelines | • **Frontend:** React, Next.js, Tailwind | • Tool Calling & Caching |
+| • **Systems:** High-perf APIs & Multi-tenant | • **DB/DevOps:** Postgres, Docker, Linux | • Context Optimization |
 
 ---
 
-## 🛠 Tech Stack (Production-Oriented)
-
-### Core
-
-* **Languages:** TypeScript, Python, SQL
-* **Backend:** NestJS, FastAPI, Node.js
-* **Frontend:** React, Next.js, Tailwind
-* **Database:** PostgreSQL (Kysely ORM)
-
-### AI / LLM
-
-* OpenAI API, Claude API
-* Prompt Engineering & Evaluation
-* RAG Pipelines
-* AI Agents & Tool Calling
-* Context Optimization / Caching
-
-### DevOps & Systems
-
-* Docker
-* Linux / Server Management
-* PM2 / Deployment Pipelines
-* Network & debugging tools (Wireshark, Nmap)
+### 🎓 Background & Stats
+| 📜 **Certifications & Education** | 📈 **GitHub Activity** |
+| :--- | :--- |
+| • **Anthropic / Claude** — Building Agent Systems | <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Feddyhub&show_icons=true&theme=tokyonight&count_private=true&hide_border=false" /> |
+| • **BSc Computer Science** — Dokuz Eylül Univ. | <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Feddyhub&layout=compact&theme=tokyonight&hide_border=false&langs_count=4" /> |
+| • **Global Exp:** Work & Travel USA (NJ) | <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Feddyhub&theme=tokyonight&hide_border=false" /> |
 
 ---
 
-## 📊 Engineering Philosophy
-
-* ❌ I don’t build demos → I build **production systems**
-* ❌ I don’t chase hype → I optimize for **scalability & reliability**
-* ✅ Clean architecture > quick hacks
-* ✅ Data-driven decisions > assumptions
-* ✅ Measurable outputs > vague AI results
-
----
-
-## 📈 GitHub Insights
-
+### 📬 Let's Connect
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Feddyhub&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Feddyhub&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Feddyhub&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 🎓 Certifications & Background
-
-* 🛡️ **Anthropic / Claude** — Building with Claude API & Agent Systems
-* 🎓 BSc Computer Science — Dokuz Eylül University
-* 🌍 Work & Travel USA (New Jersey)
-
----
-
-## 📬 Let’s Connect
-
-If you're building something **AI-heavy, data-driven, or scalable**, I’m always open to:
-
-* 🚀 Collaboration
-* 💼 Opportunities
-* 🧠 Technical discussions
-
-<p align="center">
+  Building something <b>AI-heavy</b> or <b>scalable</b>? Let's talk. <br>
   <a href="https://www.linkedin.com/in/muratferhatderya/">
     <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-blue?style=for-the-badge&logo=linkedin" />
   </a>
-</p>
-
----
-
-<p align="center">
+  <br><br>
   <img src="https://komarev.com/ghpvc/?username=Feddyhub&color=blueviolet&style=flat-square&label=PROFILE+VIEWS" />
 </p>
