@@ -39,7 +39,6 @@ jobs:
             git switch -C output FETCH_HEAD
           else
             git switch --orphan output
-            git rm -rf --quiet .
           fi
 
           cp "$RUNNER_TEMP/snake/"*.svg .
