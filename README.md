@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/Feddyhub.png?size=160" alt="Murat Ferhat Derya's GitHub profile photo" width="112" height="112" />
+  <img src="assets/murat-pixel-art.png" alt="Pixel-art portrait of Murat by the Istanbul waterfront" height="240" />
+  <img src="assets/istanbul-workspace-pixel-art.png" alt="Pixel-art coding desk overlooking the Istanbul waterfront at sunset" height="240" />
 </p>
 
 <h1 align="center">Murat Ferhat Derya</h1>
