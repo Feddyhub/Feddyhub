@@ -1,0 +1,55 @@
+name: Grow contribution snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/snake.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Draw light and dark contribution snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%23b7794c&color_dots=%23eee9d5,%23c9d5b1,%2394af81,%236a8c67,%233e654d
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23dfac69&color_dots=%232c342e,%2344553e,%236d8559,%239caa70,%23c6bd7d
+
+      - name: Publish generated SVGs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/snake"
+          cp dist/*.svg "$RUNNER_TEMP/snake/"
+
+          if git ls-remote --exit-code --heads origin output >/dev/null; then
+            git fetch origin output
+            git switch -C output FETCH_HEAD
+          else
+            git switch --orphan output
+            git rm -rf --quiet .
+          fi
+
+          cp "$RUNNER_TEMP/snake/"*.svg .
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          if git diff --cached --quiet; then
+            echo 'Contribution graph is already current.'
+            exit 0
+          fi
+
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m 'Update contribution snake'
+          git push origin HEAD:output
