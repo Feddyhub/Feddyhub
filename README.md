@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="assets/murat-pixel-art.png" alt="Pixel-art portrait of Murat by the Istanbul waterfront" height="240" />
-  <img src="assets/istanbul-workspace-pixel-art.png" alt="Pixel-art coding desk overlooking the Istanbul waterfront at sunset" height="240" />
+  
 </p>
 
 <h1 align="center">Murat Ferhat Derya</h1>
